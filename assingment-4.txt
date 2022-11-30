@@ -1,0 +1,60 @@
+Assignment  4:-
+
+q-1: What is JavaScript? 
+ans: JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. (Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code.)
+
+q-2: What is the use of isNaN function?
+ans: The isNaN() function is used to check whether a given value is an illegal number or not. It returns true if value is a NaN else returns false. It is different from the Number.
+
+q-3: What is negative Infinity? 
+ans: NEGATIVE_INFINITY is the same as the negative value of the global object's Infinity property. This value behaves slightly differently than mathematical infinity: Any positive value, including POSITIVE_INFINITY , multiplied by NEGATIVE_INFINITY is NEGATIVE_INFINITY .
+ 
+q-4: Which company developed JavaScript? 
+ans: Netscape
+
+q-5: What are undeclared and undefined variables? 
+ans: Undefined variable means a variable has been declared but does not have a value. Undeclared variable means that the variable does not exist in the program at all.
+
+q-6: Write the code for adding new elements dynamically? 
+ans: Syntax: document. createElement("<tagName>"); // Where <tagName> can be any HTML // tagName like div, ul, button, etc. // newDiv element has been created For Eg: let newDiv = document. createElement("div");
+
+q-7 What is the difference between ViewState and SessionState? 
+ans: The basic difference between these two is that the ViewState is to manage state at the client's end, making state management easy for end-user while SessionState manages state at the server's end, making it easy to manage content from this end too.
+
+q-8 What is === operator?
+ans: === (Triple equals) is a strict equality comparison operator in JavaScript, which returns false for the values which are not of a similar type. This operator performs type casting for equality. If we compare 2 with “2” using ===, then it will return a false value.
+
+q-9: How can the style/class of an element be changed? 
+ans: Another way to alter the style of an element is by changing its class attribute. class is a reserved word in JavaScript, so in order to access the element's class, you use element. className .
+
+q-10: How to read and write a file using JavaScript? 
+ans: readFile() and rs. writeFile() methods are used to read and write of a file using javascript. The file is read using the fs. readFile() function, which is an inbuilt method.
+
+q-11: What are all the looping structures in JavaScript? 
+ans: for - loops through a block of code a number of times
+for/in - loops through the properties of an object
+for/of - loops through the values of an iterable object
+while - loops through a block of code while a specified condition is true
+do/while - also loops through a block of code while a specified condition is true
+
+q-12: How can you convert the string of any base to an integer in JavaScript? 
+ans: In JavaScript parseInt() function (or a method) is used to convert the passed in string parameter or value to an integer value itself. This function returns an integer of base which is specified in second argument of parseInt() function.
+
+q-13: What is the function of the delete operator? 
+ans: The delete operator removes a given property from an object. On successful deletion, it will return true , else false will be returned.
+
+q-14: What are all the types of Pop up boxes available in JavaScript? 
+ans: JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.
+
+q-15: What is the use of Void (0)?
+ans: In a programming language, void means return nothing. “javascript: void(0)” is similar to void. javascript: void(0) means return undefined as a primitive value. We use this to prevent any negative effects on a webpage when we insert some expression.
+
+q-16: How can a page be forced to load another page in JavaScript? 
+ans: Approach: We can use window. location property inside the script tag to forcefully load another page in Javascript. It is a reference to a Location object that is it represents the current location of the document. We can change the URL of a window by accessing it.
+
+q-17: What are the disadvantages of using innerHTML in JavaScript? 
+ans: Event handlers attached to any DOM element are preserved.
+Replacement is done everywhere.
+It is not possible to append innerHTML.
+Breaks the document.
+Used for Cross-site Scripting.
